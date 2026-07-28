@@ -28,9 +28,7 @@ I am passionate about software development, web development, and cybersecurity. 
 
 ## Live Website
 
-Add your GitHub Pages link here after publishing:
-
-https://tshwareloprecious5-create.github.io/YOUR_REPOSITORY_NAME/
+https://tshwareloprecious5-create.github.io/Portfolio-Website
 
 ## GitHub Repository
 
