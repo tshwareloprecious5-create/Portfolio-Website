@@ -434,7 +434,7 @@ Typing Effect
     height:60px;
 
     border-radius:50%;
-    background:white;
+    background:rgb(13, 62, 221);
     color:#2563eb;
 
     font-size:28px;
@@ -768,5 +768,22 @@ Typing Effect
 .contact-card a:hover{
 
     background:#2563eb;
+
+}
+.contact-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.contact-card{
+
+    width:320px;
 
 }
