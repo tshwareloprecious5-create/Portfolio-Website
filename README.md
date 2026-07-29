@@ -13,7 +13,6 @@ I am passionate about software development, web development, and cybersecurity. 
 - HTML5
 - CSS3
 - JavaScript
-- Git
 - GitHub
 
 ## Features
@@ -24,15 +23,17 @@ I am passionate about software development, web development, and cybersecurity. 
 - Projects with GitHub repository links
 - Certificates
 - Downloadable CV
-- Contact section with Email, LinkedIn, and GitHub
+- Contact section with Email and LinkedIn
 
 ## Live Website
 
 https://tshwareloprecious5-create.github.io/Portfolio-Website
 
-## GitHub Repository
+## GitHub Repositories
 
-https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME
+https://github.com/tshareloprecious5-create/Portfolio-Website
+
+https://github.com/tshareloprecious5-create/Full-Stack-WebApp
 
 ## Author
 
