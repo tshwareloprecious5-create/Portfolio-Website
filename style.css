@@ -323,26 +323,7 @@ footer{
 
 }
 
-@media(max-width:768px){
 
-nav{
-    flex-direction:column;
-}
-
-nav ul{
-    margin-top:15px;
-    flex-direction:column;
-    text-align:center;
-}
-
-nav ul li{
-    margin:10px 0;
-}
-
-.hero h1{
-    font-size:32px;
-}
-}
 /* Typing Animation */
 
 #typing-name,
@@ -785,5 +766,128 @@ Typing Effect
 .contact-card{
 
     width:320px;
+
+}
+/* ==========================
+   MOBILE RESPONSIVE
+========================== */
+
+@media (max-width: 768px) {
+
+    html,
+    body{
+        overflow-x:hidden;
+    }
+
+    /* Navigation */
+
+    nav{
+        flex-direction:column;
+        padding:20px;
+    }
+
+    nav ul{
+        flex-direction:column;
+        gap:15px;
+        margin-top:20px;
+    }
+
+    /* Hero */
+
+    .hero{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+        padding:60px 8%;
+
+        gap:40px;
+
+    }
+
+    .hero-text h1{
+        font-size:36px;
+    }
+
+    .hero-text h3{
+        font-size:22px;
+    }
+
+    .hero-text p{
+        font-size:16px;
+    }
+
+    .hero-image img{
+
+        width:240px;
+
+        height:320px;
+
+    }
+
+    /* Hero buttons */
+
+    .btn{
+
+        display:block;
+
+        width:220px;
+
+        margin:15px auto;
+
+        text-align:center;
+
+    }
+
+    /* About */
+
+    .about-container{
+
+        flex-direction:column;
+
+        text-align:center;
+
+    }
+
+    .about-image img{
+
+        width:230px;
+
+        height:300px;
+
+    }
+
+    .about-cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* Projects */
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    /* Contact */
+
+    .contact-container{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .contact-card{
+
+        width:100%;
+
+        max-width:320px;
+
+    }
 
 }
